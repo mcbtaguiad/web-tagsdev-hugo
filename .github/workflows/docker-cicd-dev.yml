@@ -27,5 +27,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: mcbtaguiad/web-tagsdev-hugo:v1.0.2,mcbtaguiad/web-tagsdev-hugo:latest
+          tags: mcbtaguiad/web-tagsdev-hugo:${{ .Commit }},mcbtaguiad/web-tagsdev-hugo:latest
         
